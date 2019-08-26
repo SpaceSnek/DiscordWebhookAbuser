@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discord Webhook Spam</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/webhookspamanimate.css">
+    <link rel="stylesheet" href="assets/css/webhookspamstyle.css">
+</head>
+<body>
+    <div id="beginning" class="container">
+        <div class="main">
+
+            <h1>Webhook Spammer</h1>
+            <h4>Spam chats using the Discord webhooks</h4>
+            <img src="assets/img/dog.gif" alt="">
+            <input placeholder="Webhook URL" id="webhook-url" class="form-control" type="text"><br>
+            <input placeholder="Message" id="msg" class="form-control" type="text">
+            <input placeholder="Username" id="username" class="form-control" type="text"><br>
+            <input placeholder="Avatar URL" id="avatar" class="form-control" type="text">
+            <input placeholder="Amount Of Messages" id="msgamt" class="form-control" type="text"><br><br>
+            <a href="#" id="start" class="btn">Begin</a>
+            <a href="https://spacesnek.pw" id="start" class="btn">return</a>
+        </div>
+
+        <div class="progress-div" style="display: none;">
+            <img src="assets/img/dog.gif">
+            <h1 id="progress"><span id="numer"></span> / <span id="denom"></span></h1>
+			<a href="index.html" class="btn">Back</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="assets/js/webhookspammain.js"></script>
+</body>
+</html>
